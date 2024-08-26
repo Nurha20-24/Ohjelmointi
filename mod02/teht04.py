@@ -1,4 +1,5 @@
 #Tehtävä 4
+#Kirjoita ohjelma, joka kysyy kolme kokonaislukua. Ohjelma tulostaa lukujen summan, tulon ja keskiarvon.
 luku1 = int(input("Kerro ensimmäinen luku: "))
 luku2 = int(input("Kerro toinen luku: "))
 luku3 = int(input("Kerro kolmas luku: "))
