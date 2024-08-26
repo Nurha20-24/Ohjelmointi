@@ -54,5 +54,4 @@ for i in range(4):
     randum_number = random.randint(0, 6)
     print(randum_number)
 
-# testi
 
