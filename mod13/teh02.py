@@ -2,6 +2,7 @@
 from flask import Flask, Response, request
 import json
 import mysql.connector
+
 app = Flask(__name__)
 @app.route("/kentta/<EFHK>")
 def kentta_efhk(EFHK):

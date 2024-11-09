@@ -2,6 +2,7 @@
 from flask import Flask, Response
 import json
 import math
+
 app = Flask(__name__)
 @app.route('/alkuluku/<alkuluku>')
 def alkuluku(alkuluku):
