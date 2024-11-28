@@ -18,3 +18,4 @@ if is_prime_number(user_input):
     print(f"Luku {user_input} on alkuluku. ")
 else:
     print(f"Luku {user_input} ei ole alkuluku")
+

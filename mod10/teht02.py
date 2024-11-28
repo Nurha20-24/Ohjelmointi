@@ -43,4 +43,5 @@ class Talo:
 talo = Talo(2,10, 3)
 talo.aja_hissia(1, 3)
 talo.aja_hissia(2, 12)
+talo.aja_hissia(1, 5)
 talo.aja_hissia(2, 10)

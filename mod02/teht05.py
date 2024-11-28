@@ -13,7 +13,7 @@ luodit = float(input("Anna luodit: "))
 naulaTot = leiviskät * 20 + naulat
 luodiTot = naulaTot * 32 + luodit
 grammaTot = luodiTot * 13 * 3
-
+print(grammaTot)
 kg = grammaTot // 100
 gr = grammaTot % 100
 print(f"Massa nykymittojen mukaan: {kg} kilogrammaa ja {gr} grammaa.")

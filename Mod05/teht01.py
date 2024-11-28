@@ -10,3 +10,26 @@ for i in range(dice_count):
 print(f"Noppien silmälukujen summa on {total}")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

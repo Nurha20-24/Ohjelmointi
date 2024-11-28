@@ -9,12 +9,14 @@ class Hissi:
         if kohdekerros < self.alin_kerros or kohdekerros > self.ylin_kerros:
             print(f"Kerros {kohdekerros} on virheellinen. Siirry kerrokseen {self.alin_kerros}-{self.ylin_kerros} välillä.")
             return
+
         elif kohdekerros > self.kerros:
             while kohdekerros > self.kerros:
                 self.kerros_ylös()
         elif kohdekerros < self.kerros:
             while kohdekerros < self.kerros:
                 self.kerros_alas()
+
         print(f"Hissi on nyt kerroksessa {kohdekerros}")
 
     def kerros_ylös(self):

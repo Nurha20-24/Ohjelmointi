@@ -37,7 +37,7 @@ class Kilpailu:
         print(f"\nKilpailu {self.nimi} - {self.kilometrimäärä} km\n")
         print("Rekisteritunnus |  Huippunopeus | Nopeus | Kuljettu matka  |")
         for auto in self.autolista:
-            print("-" * 60)
+            print("_" * 60)
             print(f"{auto.rekisteritunnus:<17}| {auto.huippunopeus:<12} | {auto.nopeus: <6} | {auto.kuljettu_matka:<14.0f}  |")
         print("-" * 60)
 
@@ -64,6 +64,6 @@ while not kilpailu.kilpailu_ohi():
     if tunti % 10 == 0:
         kilpailu.tulosta_tilanne()
 
-print("\nKilpailu on ohi! \n")
+print("\nKilpailu on ohi!")
 kilpailu.tulosta_tilanne()
 

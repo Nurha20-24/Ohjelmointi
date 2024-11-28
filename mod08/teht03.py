@@ -15,7 +15,7 @@ connection = mysql.connector.connect(
              collation= 'utf8mb4_general_ci'
              )
 def fetch_airport_by_icao():
-   icao = input("Syötä lentokenttien icao-koodi: ")
+   icao = input("Anna icao koodi: ")
    sql = (f"select latitude_deg, longitude_deg from airport where ident = '{icao}';")
    cursor = connection.cursor()
    cursor.execute(sql)
@@ -25,4 +25,4 @@ def fetch_airport_by_icao():
 
 airport1 = fetch_airport_by_icao()
 airport2 = fetch_airport_by_icao()
-print(f"Kahden lentokenttien välsen etäisyys on {(distance.distance(airport1, airport2).km):.2f} kilometriä.")
+print(f"Kahden lentokentän välisen etäisyys on {(distance.distance(airport1, airport2).km):.2f} kilometriä.")
