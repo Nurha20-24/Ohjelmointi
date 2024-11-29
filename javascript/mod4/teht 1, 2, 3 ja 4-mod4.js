@@ -11,7 +11,7 @@ document.querySelector('form').addEventListener('submit', function(evt){
 async function getTvShows(searchW) {
   const response = await fetch(`https://api.tvmaze.com/search/shows?q=${searchW}`)
   const data = await response.json();
-  console.log('Api response', data)
+  console.log('Api response:', data)
   createArticle(data);
 }
 
