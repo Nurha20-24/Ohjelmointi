@@ -33,7 +33,7 @@ function createArticle(data){
 
     const img = document.createElement('img');
     img.alt = movie.show.name;
-    img.src = movie.show.image ? movie.show.image.medium : 'https://via.placeholder.com/210x295?text=Not%20Found';
+    img.src = movie.show.image ? movie.show.image.medium : 'https://placedog.net/210/230';
 
     const summary = document.createElement('div');
     summary.innerHTML = movie.show.summary;
